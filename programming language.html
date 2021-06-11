@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>programming language</title>
+</head>
+
+<body>
+    <p class="logo">programming language</p>
+    <!-- list of anchor -->
+    <ul>
+        <li><a href="#home">home</a> </li>
+        <li><a href="#classification">classification</a></li>
+        <li><a href="#Syntax">Syntax</a></li>
+        <li><a href="#Type system">Type system</a></li>
+        <li><a href="#implementation">implementation</a></li>
+    </ul>
+    <div id="home">
+        <p>A programming language is a formal language comprising a set of strings that produce various kinds of machine
+            code output.
+            Programming languages are one kind of computer language, and are used in computer programming to implement
+            algorithms.
+            Most programming languages consist of instructions for computers. There are programmable machines that use a
+            set of specific instructions, rather than general programming languages.
+            The description of a programming language is usually split into the two components of syntax (form) and
+            semantics (meaning). Some languages are defined by a specification document (for example, the C programming
+            language is specified by an ISO Standard) while other languages (such as Perl) have a dominant
+            implementation that is treated as a reference. Some languages have both, with the basic language defined by
+            a standard and extensions taken from the dominant implementation being common.
+        </p>
+    </div>
+    <!-- table for classification of programming language-->
+    <div id="classification">
+        <table>
+            <caption>classification of programming language</caption>
+            <tr>
+                <th scope="col"> </th>
+                <th>statically checked</th>
+                <th>dynamically checked</th>
+            </tr>
+            <tr>
+                <th scope="row">strong type</th>
+                <td> Hskel, java, pascl </td>
+                <td> Lips, Sceme </td>
+            </tr>
+            <tr>
+                <th scope="row"> weakly type </th>
+                <td>C</td>
+                <td>c++ </td>
+                <td>perl</td>
+            </tr>
+        </table>
+    </div>
+    <div class="Syntax">
+        A programming language's surface form is known as its syntax. Most programming languages are purely textual;
+        they use sequences of text including words, numbers, and punctuation, much like written natural languages. On
+        the other hand, there are some programming languages which are more graphical in nature, using visual
+        relationships between symbols to specify a program.
+
+        The syntax of a language describes the possible combinations of symbols that form a syntactically correct
+        program. The meaning given to a combination of symbols is handled by semantics (either formal or hard-coded in a
+        reference implementation). Since most languages are textual, this article discusses textual syntax.
+        Programming language syntax is usually defined using a combination of regular expressions (for lexical
+        structure) and Backus–Naur form (for grammatical structure). Below is a simple grammar, based on Lisp:
+        This grammar specifies the following:
+
+        an expression is either an atom or a list;
+        an atom is either a number or a symbol;
+        a number is an unbroken sequence of one or more decimal digits, optionally preceded by a plus or minus sign;
+        a symbol is a letter followed by zero or more of any characters (excluding whitespace); and
+        a list is a matched pair of parentheses, with zero or more expressions inside it.
+        <!-- img  -->
+        <img src="https://live.staticflickr.com/3912/15090961835_c4f26e4890_b.jpg">
+    </div>
+    <div id="Type system">
+        <p>
+            A type system defines how a programming language classifies values and expressions into types, how it can
+            manipulate those types and how they interact. The goal of a type system is to verify and usually enforce a
+            certain level of correctness in programs written in that language by detecting certain incorrect operations.
+            Any decidable type system involves a trade-off: while it rejects many incorrect programs, it can also
+            prohibit some correct, albeit unusual programs. In order to bypass this downside, a number of languages have
+            type loopholes, usually unchecked casts that may be used by the programmer to explicitly allow a normally
+            disallowed operation between different types. In most typed languages, the type system is used only to type
+            check programs, but a number of languages, usually functional ones, infer types, relieving the programmer
+            from the need to write type annotations. The formal design and study of type systems is known as type
+            theory.
+            A language is typed if the specification of every operation defines types of data to which the operation is
+            applicable.[46] For example, the data represented by "this text between the quotes" is a string, and in many
+            programming languages dividing a number by a string has no meaning and will not be executed. The invalid
+            operation may be detected when the program is compiled ("static" type checking) and will be rejected by the
+            compiler with a compilation error message, or it may be detected while the program is running ("dynamic"
+            type checking), resulting in a run-time exception. Many languages allow a function called an exception
+            handler to handle this exception and, for example, always return "-1" as the result.
+        </p>
+    </div>
+    <div id="implementation">
+        <p>
+            Programming languages share properties with natural languages related to their purpose as vehicles for
+            communication, having a syntactic form separate from its semantics, and showing language families of related
+            languages branching one from another.[50][51] But as artificial constructs, they also differ in fundamental
+            ways from languages that have evolved through usage. A significant difference is that a programming language
+            can be fully described and studied in its entirety since it has a precise and finite definition.[52] By
+            contrast, natural languages have changing meanings given by their users in different communities. While
+            constructed languages are also artificial languages designed from the ground up with a specific purpose,
+            they lack the precise and complete semantic definition that a programming language has.
+
+            Many programming languages have been designed from scratch, altered to meet new needs, and combined with
+            other languages. Many have eventually fallen into disuse. Although there have been attempts to design one
+            "universal" programming language that serves all purposes, all of them have failed to be generally accepted
+            as filling this role.[53] The need for diverse programming languages arises from the diversity of contexts
+            in which languages are used:
+            Programs range from tiny scripts written by individual hobbyists to huge systems written by hundreds of
+            programmers.
+            Programmers range in expertise from novices who need simplicity above all else to experts who may be
+            comfortable with considerable complexity.
+            Programs must balance speed, size, and simplicity on systems ranging from microcontrollers to
+            supercomputers.
+            Programs may be written once and not change for generations, or they may undergo continual modification.
+            Programmers may simply differ in their tastes: they may be accustomed to discussing problems and expressing
+            them in a particular language.
+
+        </p>
+    </div>
+</body>
+
+</html>
